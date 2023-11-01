@@ -134,7 +134,7 @@ function Home() {
                                             Com2verse
                                         </td>
                                         <td className="px-2 py-1.5 text-xs">
-                                            2022.06 ~ now
+                                            2022.06 ~ 2023.10
                                         </td>
                                         <td className="py-1.5 text-center">
                                             <span className="bg-gradient-to-r from-orange-500 to-orange-300 bg-clip-text font-bold text-transparent">
