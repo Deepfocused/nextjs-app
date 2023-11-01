@@ -1,0 +1,84 @@
+@tailwind base;
+/*기본 스타일링이 필요했음.
+https://tailwindcss.com/docs/preflight
+https://www.daleseo.com/tailwind-preflight/
+ */
+/*@layer base {*/
+/*    ul {*/
+/*        @apply list-inside list-disc marker:text-sky-500;*/
+/*    }*/
+/*}*/
+
+@tailwind components;
+@tailwind utilities;
+
+.low-energy-spin {
+    animation: spin 2.5s linear forwards infinite;
+}
+
+.high-energy-spin {
+    animation: spin 0.6s linear forwards infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/*::-webkit-scrollbar {*/
+/*    display: none;*/
+/*}*/
+
+/* 웹킷 브라우저용 스크롤바 스타일링 */
+::-webkit-scrollbar {
+    /*width: 2px; !* 가로 스크롤바 너비 0으로 설정 *!*/
+    height: 4px; /* 스크롤바 높이 지정 (세로 스크롤바) */
+}
+
+/* 스크롤바 트랙 스타일 */
+::-webkit-scrollbar-track {
+    background-color: transparent; /* 트랙 배경색 */
+}
+
+/* 스크롤바 슬라이더 스타일 */
+::-webkit-scrollbar-thumb {
+    /*background-color: #747474;*/
+    background-image: linear-gradient(hotpink, lightpink); /* 슬라이더 배경색 */
+    border-radius: 3px; /* 슬라이더 모서리 둥글게 처리 */
+}
+
+.body-scrollbar::-webkit-scrollbar {
+    width: 0px; /* 가로 스크롤바 너비 0으로 설정 */
+    height: 0px; /* 스크롤바 높이 지정 (세로 스크롤바) */
+}
+
+.body-scrollbar::-webkit-scrollbar-track {
+    background-color: transparent; /* 트랙 배경색 */
+}
+
+.body-scrollbar::-webkit-scrollbar-thumb {
+    /*background-color: #747474;*/
+    background-image: linear-gradient(dodgerblue, mediumpurple);
+    border-radius: 3px; /* 슬라이더 모서리 둥글게 처리 */
+}
+
+.projects-scrollbar::-webkit-scrollbar {
+    width: 4px; /* 가로 스크롤바 너비 0으로 설정 */
+    height: 0px; /* 스크롤바 높이 지정 (세로 스크롤바) */
+}
+
+.projects-scrollbar::-webkit-scrollbar-track {
+    background-color: transparent; /* 트랙 배경색 */
+}
+
+.projects-scrollbar::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(
+        dodgerblue,
+        mediumpurple
+    ); /* 슬라이더 배경색 */
+    border-radius: 3px; /* 슬라이더 모서리 둥글게 처리 */
+}
