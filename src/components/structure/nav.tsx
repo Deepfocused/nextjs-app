@@ -63,11 +63,11 @@ function Nav() {
                                 src="https://avatars.githubusercontent.com/u/149566442?v=4"
                                 alt="Picture of Deepfocused"
                                 placeholder="blur"
-                                blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOUk2OtBwABZQDCADJyswAAAABJRU5ErkJggg=="
+                                blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mPc6wMAAcwBC31ULI0AAAAASUVORK5CYII="
                                 width={256}
                                 height={256}
                                 quality={100}
-                                priority={true}
+                                // priority={true}
                                 unoptimized={false}
                             />
                         </div>
