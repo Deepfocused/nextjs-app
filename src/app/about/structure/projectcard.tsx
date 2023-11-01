@@ -1,15 +1,15 @@
 'use client';
 
-import {memo, useEffect, useRef, useState} from 'react';
-import {IProject} from './types';
+import { memo, useEffect, useRef, useState } from 'react';
+import { IProject } from './types';
 import Link from 'next/link';
 
 import Image from 'next/image';
-import {VscGithubInverted} from 'react-icons/vsc';
-import {IoLogoVercel} from 'react-icons/io5';
-import {AnimatePresence, motion} from 'framer-motion';
-import {Frank_Ruhl_Libre} from 'next/font/google';
-import {IoMdCloseCircle} from 'react-icons/io';
+import { VscGithubInverted } from 'react-icons/vsc';
+import { IoLogoVercel } from 'react-icons/io5';
+import { AnimatePresence, motion } from 'framer-motion';
+import { Frank_Ruhl_Libre } from 'next/font/google';
+import { IoMdCloseCircle } from 'react-icons/io';
 
 // const nameFont = Frank_Ruhl_Libre({
 //     weight: ['500'],
@@ -25,13 +25,13 @@ const cardFont = Frank_Ruhl_Libre({
 });
 
 const Projectcard = ({
-                         name,
-                         image_path,
-                         deployed_url,
-                         description,
-                         github_url,
-                         key_techs,
-                     }: IProject) => {
+    name,
+    image_path,
+    deployed_url,
+    description,
+    github_url,
+    key_techs,
+}: IProject) => {
     const [showDetail, setShowDetail] = useState(false);
     const startPosition = useRef<any>([0, 0]); // x, y좌표
     const cardRef = useRef<any>(null);
@@ -132,7 +132,7 @@ const Projectcard = ({
                     <motion.div
                         key={crypto.getRandomValues(new Uint32Array(1))[0]}
                         className="projects-scrollbar fixed left-[calc(100%/6)] top-[15%] z-[21] h-[36%] w-8/12 cursor-grab overflow-y-scroll rounded-l-2xl bg-gradient-to-r from-blue-200 to-purple-300 p-2 text-black md:h-[44%] lg:h-[34%] xl:h-[38%] 2xl:h-[42%]"
-                        initial={{opacity: 1, scale: 1}}
+                        initial={{ opacity: 1, scale: 1 }}
                         animate={{
                             scale: [0.5, 0.75, 1],
                             opacity: [0.0, 0.5, 1],
@@ -149,8 +149,7 @@ const Projectcard = ({
                             y: [0, startPosition.current[1]],
                         }}
                     >
-                        <div
-                            className="sticky right-0 top-0 flex justify-end rounded-2xl text-right focus:outline-none">
+                        <div className="sticky right-0 top-0 flex justify-end rounded-2xl text-right focus:outline-none">
                             <IoMdCloseCircle
                                 className="cursor-pointer"
                                 onClick={() => setShowDetail(false)}
@@ -177,7 +176,7 @@ const Projectcard = ({
                                         target="_blank"
                                         className="mr-6 flex items-center space-x-2 rounded-2xl bg-gradient-to-r from-blue-400 to-purple-400 p-2 text-sm font-bold text-white max-[340px]:mr-3 max-[340px]:p-1 max-[340px]:text-xs"
                                     >
-                                        <VscGithubInverted/>{' '}
+                                        <VscGithubInverted />{' '}
                                         <span>Github</span>
                                     </Link>
                                     <Link
@@ -185,7 +184,7 @@ const Projectcard = ({
                                         target="_blank"
                                         className="flex items-center space-x-2 rounded-2xl bg-gradient-to-r from-blue-400 to-purple-400 p-2 text-sm font-bold text-white max-[340px]:p-1 max-[340px]:text-xs"
                                     >
-                                        <IoLogoVercel/> <span>Deployed</span>
+                                        <IoLogoVercel /> <span>Deployed</span>
                                     </Link>
                                 </div>
                             </div>
