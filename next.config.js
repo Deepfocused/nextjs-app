@@ -9,9 +9,7 @@ const nextConfig = {
         contentDispositionType: 'attachment',
         contentSecurityPolicy:
             "default-src 'self'; script-src 'none'; sandbox;",
-    }, // experimental: {
-    //     appDir: true,
-    // },
+    }, 
     reactStrictMode: true,
     webpack: (config, {}) => {
         config.resolve.extensions.push('.ts', '.tsx');
