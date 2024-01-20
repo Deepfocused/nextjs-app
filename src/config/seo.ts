@@ -29,5 +29,5 @@ export const siteMetadata = {
     icons: {
         icon: '/favicon.png',
     },
-    manifest: '/site.webmanifest',
+    manifest: '/manifest.webmanifest',
 };
