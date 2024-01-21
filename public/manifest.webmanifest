@@ -2,7 +2,7 @@
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
     "display": "standalone",
-    "scope": "/",
+    "scope": ".",
     "start_url": "/",
     "name": "Deepfocused Homepage",
     "short_name": "Deepfocused Homepage",
