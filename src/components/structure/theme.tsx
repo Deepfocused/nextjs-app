@@ -66,7 +66,7 @@ function ThemeSwitch() {
             </div>
             <div className="absolute" ref={menuRef}>
                 {isOpen && (
-                    <ul className="menu rounded-box menu-sm z-[21] mt-3 w-28 border-orange-300 bg-base-100 font-bold shadow-xl shadow-orange-300">
+                    <ul className="menu menu-sm z-[21] mt-3 w-28 rounded-box border-orange-300 bg-base-100 font-bold shadow-xl shadow-orange-300">
                         {themes.slice(0, themes.length - 1).map(
                             (
                                 opt,

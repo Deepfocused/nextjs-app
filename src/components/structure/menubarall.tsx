@@ -68,7 +68,7 @@ function MenubarAll() {
 
             <div className="absolute" ref={menuRef}>
                 {isOpen && (
-                    <ul className="menu rounded-box menu-sm z-[21] mt-3 w-56 border-green-300 bg-base-100 p-1 font-bold shadow-xl shadow-green-300">
+                    <ul className="menu menu-sm z-[21] mt-3 w-56 rounded-box border-green-300 bg-base-100 p-1 font-bold shadow-xl shadow-green-300">
                         <li>
                             <Link href="/" onClick={closeDropdown}>
                                 Home

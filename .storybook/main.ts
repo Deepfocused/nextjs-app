@@ -11,9 +11,9 @@ const config: StorybookConfig = {
         name: '@storybook/nextjs',
         options: {
             builder: {
-              useSWC: true, // Enables SWC support
+                useSWC: true, // Enables SWC support
             },
-          },
+        },
     },
     docs: {
         autodocs: 'tag',
