@@ -1,7 +1,7 @@
 import type { SiteConfig } from '@/types';
 
 export const siteConfig: SiteConfig = {
-    name: 'Deepfocused Next.js Homepage',
+    name: 'Deepfocused Homepage',
     description: 'A page introducing Deepfocused and what Deepfocused has done',
     url: 'https://deepfocused.vercel.app/',
     ogImageUrl: '/images/me.jpg',

@@ -4,7 +4,7 @@
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "Deepfocused Next.js Homepage",
+    "name": "Deepfocused Homepage",
     "short_name": "Deepfocused Homepage",
     "description": "A page introducing Deepfocused and what Deepfocused has done",
     "icons": [
