@@ -11,9 +11,10 @@ import Loading from './loading';
 import GoogleAnalytics from '@/libs/googleanalytics';
 import RQProviders from '@/components/provider/reactqueryproviders';
 import {Viewport} from 'next';
+import type { Metadata } from 'next'
 //import RecoilProviders from '../components/provider/recoil';
 
-export const metadata = {...siteMetadata};
+export const metadata: Metadata = { ...siteMetadata };
 export const viewport: Viewport = {
     // themeColor: [
     //     { media: '(prefers-color-scheme: light)', color: 'black' },
