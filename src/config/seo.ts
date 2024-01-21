@@ -2,7 +2,7 @@ import { siteConfig } from '@/config/site';
 
 export const siteMetadata = {
     metadataBase: new URL('https://deepfocused.vercel.app'),
-    title: 'Deepfocused',
+    title: 'Deepfocused, who are you?',
     description: siteConfig.description,
     keywords: [],
     authors: [
