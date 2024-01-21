@@ -6,7 +6,7 @@
     "start_url": "/",
     "name": "Deepfocused Next.js App",
     "short_name": "Deepfocused App",
-    "description": "A page introducing deepfocused and what deepfocused has done",
+    "description": "A page introducing Deepfocused and what deepfocused has done",
     "icons": [
         {
             "src": "/icon-192x192.png",
