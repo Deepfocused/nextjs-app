@@ -1,3 +1,4 @@
+// https://noogoonaa.tistory.com/110 / pwa 참고
 const NodePolyfillPlugin = require('node-polyfill-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 const withPWA = require('@ducanh2912/next-pwa').default({
