@@ -28,7 +28,7 @@ export const siteMetadata = {
     },
     icons: {
         icon: '/favicon.png',
-        apple: '/favicon.png',
+        apple: '/icon-192x192.png',
     },
     appleWebApp: {
         title: 'for apple splash',
