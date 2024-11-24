@@ -18,7 +18,15 @@ const withPWA = require('@ducanh2912/next-pwa').default({
 
 const nextConfig = {
     images: {
-        domains: ['avatars.githubusercontent.com'],
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'avatars.githubusercontent.com',
+                port: '',
+                pathname: '/u/149566442',
+                search: '?v=4',
+            },
+        ],
         dangerouslyAllowSVG: true,
         contentDispositionType: 'attachment',
         contentSecurityPolicy:

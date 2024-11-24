@@ -130,11 +130,26 @@ function Home() {
                                         </td>
                                     </tr>
                                     <tr className="text-left">
-                                        <td className="py-1.5 text-rose-400">
-                                            Com2verse
+                                        <td className="py-1.5 text-violet-300">
+                                            Com2Verse
                                         </td>
                                         <td className="px-2 py-1.5 text-xs">
                                             2022.06 ~ 2023.10
+                                        </td>
+                                        <td className="py-1.5 text-center">
+                                            AI
+                                            <span className="font-bold">
+                                                &nbsp;/&nbsp;
+                                            </span>
+                                            Web Developer
+                                        </td>
+                                    </tr>
+                                    <tr className="text-left">
+                                        <td className="py-1.5 text-rose-400">
+                                            LG CNS
+                                        </td>
+                                        <td className="px-2 py-1.5 text-xs">
+                                            2023.11 ~ Now
                                         </td>
                                         <td className="py-1.5 text-center">
                                             <span className="bg-gradient-to-r from-orange-500 to-orange-300 bg-clip-text font-bold text-transparent">
@@ -144,7 +159,7 @@ function Home() {
                                                 &nbsp;/&nbsp;
                                             </span>
                                             <span className="bg-gradient-to-r from-orange-500 to-orange-300 bg-clip-text font-bold text-transparent">
-                                                Web Developer
+                                                Backend Developer
                                             </span>
                                         </td>
                                     </tr>

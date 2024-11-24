@@ -22,7 +22,7 @@ export default function Layout({ children }: { children: ReactNode }) {
                     {/* //!sidebar */}
                     <Sidebar />
                 </div>
-                <div className="border col-span-12 flex flex-col rounded-l-2xl border-2 border-blue-300 shadow-xl shadow-blue-300 lg:col-span-9">
+                <div className="col-span-12 flex flex-col rounded-l-2xl border border-2 border-blue-300 shadow-xl shadow-blue-300 lg:col-span-9">
                     {/* //!navbar */}
                     <Navbar />
                     {children}

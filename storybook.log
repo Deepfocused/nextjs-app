@@ -1,0 +1,24 @@
+(node:7396) ExperimentalWarning: CommonJS module C:\Users\medic\AppData\Roaming\nvm\v23.3.0\node_modules\npm\node_modules\debug\src\node.js is loading ES Module C:\Users\medic\AppData\Roaming\nvm\v23.3.0\node_modules\npm\node_modules\supports-color\index.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm error code ERESOLVE
+npm error ERESOLVE unable to resolve dependency tree
+npm error
+npm error While resolving: Deepfocused Next.js Homepage Package@1.0.0
+npm error Found: storybook@8.4.5
+npm error node_modules/storybook
+npm error   dev storybook@"^8.4.5" from the root project
+npm error
+npm error Could not resolve dependency:
+npm error peer storybook@"^8.5.0-alpha.10" from @storybook/addon-onboarding@8.5.0-alpha.10
+npm error node_modules/@storybook/addon-onboarding
+npm error   dev @storybook/addon-onboarding@"8.5.0-alpha.10" from the root project
+npm error
+npm error Fix the upstream dependency conflict, or retry
+npm error this command with --force or --legacy-peer-deps
+npm error to accept an incorrect (and potentially broken) dependency resolution.
+npm error
+npm error
+npm error For a full report see:
+npm error C:\Users\medic\AppData\Local\npm-cache\_logs\2024-11-24T14_41_33_363Z-eresolve-report.txt
+npm error A complete log of this run can be found in: C:\Users\medic\AppData\Local\npm-cache\_logs\2024-11-24T14_41_33_363Z-debug-0.log
