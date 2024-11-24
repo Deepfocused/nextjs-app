@@ -26,7 +26,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className="my-3 flex items-center justify-between px-4 max-[430px]:hidden">
+            <div className="my-3 flex items-center justify-between px-4 max-[429px]:hidden">
                 <div className="border-b-4 border-blue-500 text-2xl font-bold">
                     {active}
                 </div>
