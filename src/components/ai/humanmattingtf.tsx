@@ -271,7 +271,7 @@ function HumanmattingTF({ backendName, modelPath }: ModelInfo) {
     }, [playing, cameraSelect]);
     return (
         <div className="mb-28">
-            <div className="mt-7 grid items-center justify-center md:justify-self-end">
+            <div className="mt-7 grid items-center justify-center">
                 <label
                     htmlFor="AcceptConditions"
                     className="relative h-8 w-14 cursor-pointer"
@@ -287,13 +287,13 @@ function HumanmattingTF({ backendName, modelPath }: ModelInfo) {
                     <span className="absolute inset-y-0 start-0 m-1 h-6 w-6 rounded-full bg-white transition-all peer-checked:start-6"></span>
                 </label>
             </div>
-            <div className="mt-6 grid items-center justify-center md:justify-self-end">
+            <div className="mt-6 grid items-center justify-center">
                 <div className="badge badge-neutral hidden sm:block">
                     Human Matting Algorithm made by Deepfocused Using
                     TensorflowJS
                 </div>
             </div>
-            <div className="mb-3 mt-4 grid items-center justify-center md:justify-self-end">
+            <div className="mb-3 mt-4 grid items-center justify-center">
                 <label className="label cursor-pointer">
                     <span className="label-text mr-10 text-red-700">
                         Front Camera
