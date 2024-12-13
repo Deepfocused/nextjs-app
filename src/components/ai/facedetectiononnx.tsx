@@ -266,7 +266,7 @@ function FacedetectionONNX({ modelPath }: { modelPath: string }) {
 
     return (
         <div className="mb-28">
-            <div className="mt-7 grid items-center justify-center md:justify-self-end">
+            <div className="mt-7 grid items-center justify-center">
                 <label
                     htmlFor="AcceptConditions"
                     className="relative h-8 w-14 cursor-pointer"
@@ -282,13 +282,13 @@ function FacedetectionONNX({ modelPath }: { modelPath: string }) {
                     <span className="absolute inset-y-0 start-0 m-1 h-6 w-6 rounded-full bg-white transition-all peer-checked:start-6"></span>
                 </label>
             </div>
-            <div className="mt-6 grid items-center justify-center md:justify-self-end">
+            <div className="mt-6 grid items-center justify-center">
                 <div className="badge badge-neutral hidden sm:block">
                     Face Detection Algorithm made by Deepfocused Using
                     Onnxruntime(wasm)
                 </div>
             </div>
-            <div className="mb-3 mt-4 grid items-center justify-center md:justify-self-end">
+            <div className="mb-3 mt-4 grid items-center justify-center">
                 <label className="label cursor-pointer">
                     <span className="label-text mr-10 text-red-700">
                         Front Camera
@@ -344,16 +344,16 @@ function FacedetectionONNX({ modelPath }: { modelPath: string }) {
                 />
             </div>
             {loading ? (
-                <div className="mt-4 grid items-center justify-center md:justify-self-end">
+                <div className="mt-4 grid items-center justify-center">
                     <div className="badge badge-info">😿Loading😿</div>
                 </div>
             ) : null}
             {playing ? (
                 <>
-                    <div className="mt-4 grid items-center justify-center md:justify-self-end">
+                    <div className="mt-4 grid items-center justify-center">
                         <div className="badge badge-success">😿Playing😿</div>
                     </div>
-                    <div className="mt-4 grid items-center justify-center md:justify-self-end">
+                    <div className="mt-4 grid items-center justify-center">
                         <div className="rounded-2xl bg-red-400 p-1 text-sm text-black">
                             😿if not Working, Press F5 and Wait for about 3
                             seconds😿
@@ -361,7 +361,7 @@ function FacedetectionONNX({ modelPath }: { modelPath: string }) {
                     </div>
                 </>
             ) : (
-                <div className="mt-4 grid items-center justify-center md:justify-self-end">
+                <div className="mt-4 grid items-center justify-center">
                     {mounted ? (
                         <div className="badge badge-warning">
                             😿Deactivated😿
