@@ -114,7 +114,7 @@ function VadONNX({ modelPath }: { modelPath: string }) {
 
     return (
         <div className="mb-28">
-            <div className="mt-7 grid items-center justify-center md:justify-self-end">
+            <div className="mt-7 grid items-center justify-center">
                 <label
                     htmlFor="AcceptConditions"
                     className="relative h-8 w-14 cursor-pointer"
@@ -130,7 +130,7 @@ function VadONNX({ modelPath }: { modelPath: string }) {
                     <span className="absolute inset-y-0 start-0 m-1 h-6 w-6 rounded-full bg-white transition-all peer-checked:start-6"></span>
                 </label>
             </div>
-            <div className="mt-6 grid items-center justify-center md:justify-self-end">
+            <div className="mt-6 grid items-center justify-center">
                 <div className="badge badge-neutral hidden sm:block">
                     Voice Detection Algorithm made by Deepfocused Using
                     Onnxruntime(wasm)
